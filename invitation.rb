@@ -10,6 +10,11 @@ time = gets.strip
 puts = "What's your host name?"
 host_name = gets.strip
 
-Hello #{guest_name}
+puts "Hi #{guest_name}!
+
+You are cordially invited to the #{party_name} on #{date} at #{time}. Don't miss it!
+
+Sincerely,
+#{host_name}"
 
 # Try starting out with puts'ing a string.
